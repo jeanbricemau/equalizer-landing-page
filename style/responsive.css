@@ -132,7 +132,9 @@
       margin: auto;
       padding: 36px 48px;
    }
-
+   section #Premium p{
+       max-width: 90%;
+   }
    button {
       width: 296px;
       height: 61px;
