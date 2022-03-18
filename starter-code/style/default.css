@@ -1,0 +1,245 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   /* border: solid 1px black; */
+   font-family: 'IBM Plex Sans';
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   width: 1440px;
+   height: fit-content;
+   background: #fcfaf9;
+   /* background: url('../assets/bg-pattern-1.svg') no-repeat; */
+   background-position: top right;
+   margin: auto;
+   background-image: url('../assets/bg-main-desktop.png');
+   padding: 62px 165px;
+}
+body::before {
+   content: url('../assets/bg-pattern-1.svg');
+   position: absolute;
+   left: 1440px;
+   top: -40px;
+   width: 312px;
+   height: 468px;
+}
+.logo {
+   width: 146.09px;
+   height: 32px;
+}
+
+article {
+   height: fit-content;
+   margin-top: 127px;
+
+   width: 1015px;
+}
+article h1 {
+   font-family: 'IBM Plex Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 88px;
+   line-height: 88px;
+   letter-spacing: -1px;
+
+   color: #191826;
+}
+article p {
+   font-family: 'IBM Plex Sans';
+
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 34px;
+   color: #191826;
+   width: 825px;
+   margin-top: 40px;
+}
+
+section {
+   width: 1110px;
+   height: 600px;
+
+   margin: auto;
+   border-radius: 12px;
+   background: url('../assets/bg-pattern-2.svg') no-repeat #191826;
+   background-position: center -40px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 327px;
+}
+.illustration {
+   width: 312px;
+   height: 642px;
+}
+
+@media screen and (min-width: 1200px) {
+   .illustration {
+      position: relative;
+      top: -219px;
+      right: -93px;
+   }
+}
+
+#Premium {
+   background: #fa7453;
+   border-radius: 12px;
+   width: 446px;
+   height: fit-content;
+   margin-right: 125px;
+   margin-top: 98px;
+   padding: 52px 59px;
+   color: #fcfaf9;
+}
+
+#Premium h2 {
+   font-family: 'IBM Plex Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 52px;
+}
+#Premium .getExpert {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 34px;
+   width: 333px;
+   height: 170px;
+   margin-top: 21px;
+}
+
+.price {
+   display: flex;
+   flex-flow: row;
+   width: fit-content;
+   height: 52px;
+   margin-top: 39px;
+   margin-bottom: 46px;
+   align-items: center;
+}
+.price span {
+   font-family: 'IBM Plex Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 65px;
+   line-height: 52px;
+}
+
+.price p {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 32px;
+   height: fit-content;
+   margin-left: 16px;
+}
+
+.buttons {
+   margin-top: 46px;
+   display: flex;
+   flex-direction: column;
+   min-width: 333px;
+   justify-content: space-between;
+
+   text-align: center;
+   letter-spacing: -0.18px;
+}
+
+.buttons button {
+   width: 333px;
+   height: 61px;
+   border-radius: 12px;
+   border: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.ios:hover {
+   cursor: pointer;
+   background-color: #66e2dc !important;
+}
+
+.android:hover {
+   cursor: pointer;
+   background-color: #ffb964;
+}
+
+.buttons img {
+   margin-right: 8px;
+}
+button p {
+   display: flex !important;
+   height: 32px !important;
+   width: fit-content !important;
+   font-style: normal;
+   font-weight: 700 !important;
+   font-size: 18px;
+   line-height: 32px;
+}
+.ios {
+   background-color: #191826;
+   margin-bottom: 16px;
+   color: #fcfaf9;
+}
+
+footer {
+   margin-top: 196px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+footer .logo {
+   width: 146.09px;
+   height: 32px;
+}
+footer .mail {
+   text-decoration: none;
+   color: #191826;
+   font-weight: 700;
+}
+footer svg {
+   width: 146.09px;
+   height: 32px;
+   fill: #c8c5f3;
+}
+
+footer p {
+   width: 366px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+}
+
+footer nav {
+   display: flex;
+   width: fit-content;
+   height: fit-content;
+}
+
+footer ul {
+   flex-direction: row;
+   display: flex;
+   justify-content: space-between;
+   width: 100px;
+}
+footer li,
+footer a,
+footer nav img {
+   list-style: none;
+   height: 100%;
+   width: 20px;
+
+   height: 20px;
+   width: 20px;
+   left: 1050px;
+   top: 29px;
+   border-radius: 0px;
+}
+
+footer a:hover img {
+   fill: #fa7453;
+}
