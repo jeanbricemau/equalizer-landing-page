@@ -1,0 +1,9 @@
+.ios:hover {
+    cursor: pointer;
+    background-color: #66e2dc;
+ }
+ 
+ .android:hover {
+    cursor: pointer;
+    background-color: #ffb964;
+ }

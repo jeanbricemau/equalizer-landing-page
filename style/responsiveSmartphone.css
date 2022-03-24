@@ -1,0 +1,122 @@
+/* smartphone et plus petit */
+/* tout ce qui as moins de 480px  */
+@media all and (max-device-width: 480px) {
+   body {
+      background-image: url('../assets/bg-main-mobile.png');
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 24px;
+   }
+   .logo {
+      width: 146.09px;
+      height: 32px;
+      opacity: 0.4;
+   }
+   .aside {
+      display: none;
+   }
+
+   article {
+      display: flex;
+      flex-direction: column;
+      margin-top: 64px;
+      width: 100%;
+   }
+   article h1 {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      width: 327px;
+      height: 144px;
+   }
+   article p {
+      max-width: 100%;
+      height: fit-content;
+      font-weight: 400;
+      font-size: 16px;
+   }
+   section {
+      margin-top: 156px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: fit-content;
+      width: 100%;
+   }
+   section .illustration {
+      width: 208px;
+      align-self: center !important;
+      margin: auto;
+      height: auto;
+      bottom: 98px !important;
+      left: 0px !important;
+   }
+   section .illustration,
+   section #Premium {
+      margin: 0px;
+      position: relative;
+   }
+
+   #Premium {
+      margin-top: 40px;
+      width: 100%;
+      margin: 0;
+      position: relative;
+      top: 0px !important   ;
+      left: 0px !important;
+      padding: 48px 36px !important;
+   }
+   #Premium h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+   }
+
+   #Premium .getExpert {
+      font-family: 'IBM Plex Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      width: 100%;
+   }
+
+   .buttons {
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   button {
+      width: 100%;
+      height: 61px;
+   }
+
+   footer {
+      width: 100%;
+      flex-direction: column;
+      margin-top: 75px;
+   }
+
+   footer .logo {
+      width: 146px;
+   }
+   footer p {
+      margin-top: 32px;
+      width: 100%;
+   }
+
+   footer p .mail::before {
+      content: '';
+      display: block;
+   }
+   footer nav {
+      margin-top: 64px;
+      margin-bottom: 80px;
+   }
+}
